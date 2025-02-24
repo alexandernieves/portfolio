@@ -44,7 +44,7 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! It&apos;s German Navas, a designer passionate about creating
+            Hi! It&#39;s German Navas, a designer passionate about creating
             impactful digital experiences.
           </p>
 
