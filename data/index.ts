@@ -13,7 +13,7 @@ export const gridItems = [
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "/b1.svg",
+    img: "/hero.mp4",
     spareImg: "",
   },
   {
@@ -38,7 +38,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    title: "Tech enthusiast with a passion for desing.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -49,8 +49,8 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
-    description: "The Inside Scoop",
+    title: "besides design I am passionate about coding",
+    description: "in the process of learning",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -72,11 +72,11 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
+    title: "Tattoo Studio | Homepage",
+    des: "Redesign the tattoo salon's home page with a minimalist aesthetic and emphasis on typography. Limited color palette, and choose fonts that reflect the salon's modern identity. Also, the client required niche images.",
+    img: "/p1.jpg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    link: "Tattoo Studio",
   },
   {
     id: 2,
@@ -90,7 +90,7 @@ export const projects = [
     id: 3,
     title: "AI Image SaaS - Canva Application",
     des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
+    img: "/p3.jpg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
     link: "/ui.aiimg.com",
   },
@@ -107,35 +107,36 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Working with Germán Navas was an outstanding experience. His ability to translate complex ideas into a seamless and visually stunning user experience exceeded our expectations. His attention to detail and deep technical knowledge make him a valuable asset to any project.",
+    name: "Sophia Martinez",
+    title: "Product Manager at BrightTech Solutions",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Germán Navas is an exceptional developer and designer. His work on our platform’s UI/UX significantly improved engagement and user retention. He consistently delivers high-quality results on time, making collaboration effortless and productive.",
+    name: "David Richardson",
+    title: "CEO of Innovate Digital",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Germán’s ability to merge creativity with functionality is truly remarkable. He transformed our website into a modern, responsive, and highly engaging experience. His strategic insights and execution made a significant impact on our brand’s online presence.",
+    name: "Elena Gómez",
+    title: "Marketing Director at Visionary Media",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "I've worked with many developers, but Germán Navas stands out for his professionalism and problem-solving mindset. His expertise in front-end development helped us optimize our web application’s performance and design. Highly recommended!",
+    name: "Mark Peterson",
+    title: "CTO at NextWave Technologies",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Germán’s work ethic and design sensibility are top-notch. He took our concept and brought it to life with precision and creativity. The new interface he designed for us received fantastic feedback from our users!",
+    name: "Isabella Carter",
+    title: "UX Lead at Digital Horizon",
   },
 ];
+
 
 export const companies = [
   {
@@ -180,8 +181,8 @@ export const workExperience = [
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Web Platform Redesign",
+    desc: "Led the redesign of Alpha Corp's main web platform using Vue.js and Tailwind CSS. Improved responsiveness, accessibility, and overall user engagement by 35%.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
